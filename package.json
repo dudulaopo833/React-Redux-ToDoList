@@ -1,0 +1,36 @@
+{
+  "name": "react-redux-todolist",
+  "version": "1.0.0",
+  "description": "This project is to learn redux, react-redux and know react again",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudulaopo833/React-Redux-ToDoList.git"
+  },
+  "keywords": [
+    "redux",
+    "react-redux"
+  ],
+  "author": "Alma Ma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudulaopo833/React-Redux-ToDoList/issues"
+  },
+  "homepage": "https://github.com/dudulaopo833/React-Redux-ToDoList#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {}
+}
