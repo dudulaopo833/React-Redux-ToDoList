@@ -4,7 +4,8 @@
   "description": "This project is to learn redux, react-redux and know react again",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -29,8 +30,7 @@
     "react": "^15.6.1",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
-    "webpack": "^3.5.4",
-    "webpack-dev-server": "^2.7.1"
+    "webpack": "^3.5.4"
   },
   "dependencies": {}
 }

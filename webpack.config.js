@@ -30,12 +30,6 @@ module.exports = {
 			}
 		]
 	},
-	devServer: {
-		contentBase: path.join(__dirname, 'dist'),
-		historyApiFallback: true,
-		hot: true,
-		noInfo: true
-	},
 	plugins: [
 		new HTMLWebpackPlugin({
 			template: "index.html",
