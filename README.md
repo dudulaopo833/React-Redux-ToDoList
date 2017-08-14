@@ -42,11 +42,11 @@ github上的源代码地址：https://github.com/reactjs/redux.git
 
 * action -> action creater -> reducer -> redux.createStore(redux.combineReducers(reducer)) -> react-redux.connect(mapStateToProps, mapDispatchToProps)(Container) -> container.dispatch(actionCreater)
 > Action 是返回一个对象的方法，描述事件，有type 和最简单的state属性     
-> Action Creator 是集中生成action方法，传给reducer
-> reducer 是一个纯方法，用于处理事件，传入state和action，最终出来新的state     
+> Action Creator 是集中生成action方法，传给reducer    
+> reducer 是一个纯方法，用于处理action Creator，传入state和action，最终出来新的state     
 > redux 提供combineReducers和createStore(reducers)方法来总结出中的store  
 > react-redux 提供connect方法和Provider组件来包装container    
-> container一般处理逻辑，不处理表现，用react-redux 中的connect方法来生成, dispatch Action方法    
+> container一般处理逻辑，不处理表现，用react-redux 中的connect方法来生成, dispatch actionCreator
 
 
 待理解：
