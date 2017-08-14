@@ -12,16 +12,17 @@ module.exports = {
 	module: {
 		rules:[
 			{
-				test: /\.js?$/,
+				test: /\.js$/,
 				include: [
 					path.resolve(__dirname, "actions"),
 					path.resolve(__dirname, "reducers"),
 					path.resolve(__dirname, "components"),
-					path.resolve(__dirname, "containers")
+					path.resolve(__dirname, "containers"),
+					path.join(__dirname, "index.js")
 				],
 				loader: "babel-loader",
 				options: {
-					presets: ["es2015"]
+					presets: ["es2015", "react"]
 				}
 			}
 		]

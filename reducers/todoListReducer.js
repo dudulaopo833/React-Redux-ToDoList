@@ -25,7 +25,7 @@ const todoListReducer = (state, action) => {
 			];
 		case 'TOGGLE_TODO_ACTION':
 			return state.map(t => oneTodoReducer(t, action));
-		case default:
+		default:
 			return state;
 	}
 };
