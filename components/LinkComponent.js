@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LinkComponent = (active, children, onClick) => {
+const LinkComponent = ({active, children, onClick}) => {
 	if(active){
 		return <span>{children}</span>
 	}
@@ -12,6 +12,7 @@ const LinkComponent = (active, children, onClick) => {
 				onClick();
 			}}
 		>
+		{children}
 		</a>
 	);
 };
