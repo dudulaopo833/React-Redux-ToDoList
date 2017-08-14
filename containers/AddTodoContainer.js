@@ -1,5 +1,6 @@
-import { connet } from 'react-redux';
+import { connect } from 'react-redux';
 import { addTodoAction } from '../actions';
+import React from 'react';
 
 let AddTodoContainer = ({dispatch}) => {
 	return (

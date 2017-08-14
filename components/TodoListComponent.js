@@ -1,4 +1,5 @@
 import OneTodoComponent from './OneTodoComponent';
+import React from 'react';
 
 const todoListComponent = ({todos, onTodoClick}) => {
 	<ul>
@@ -8,6 +9,8 @@ const todoListComponent = ({todos, onTodoClick}) => {
 				{...todo} 
 				onclick={()=>onTodoClick(todo.id)} 
 			/>
-		});}
+		})}
 	</ul>
-}
+};
+
+export default todoListComponent;

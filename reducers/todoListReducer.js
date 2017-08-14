@@ -21,7 +21,7 @@ const todoListReducer = (state, action) => {
 		case 'ADD_TODO_ACTION':
 			return [
 				...state,
-				oneTodoReducer(undefined, action),
+				oneTodoReducer({}, action),
 			];
 		case 'TOGGLE_TODO_ACTION':
 			return state.map(t => oneTodoReducer(t, action));

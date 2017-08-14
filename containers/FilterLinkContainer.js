@@ -1,6 +1,7 @@
 import {connect} from 'react-redux';
-import LinkComponent from '../compoents/LinkComponent';
+import LinkComponent from '../components/LinkComponent';
 import {setFilterAction} from '../actions';
+import React from 'react';
 
 const mapStateToProps = (state, ownProps) => {
 	return {
@@ -20,3 +21,5 @@ const FilterLinkContainer = connect(
 	mapStateToProps,
 	mapDispatchToProps
 )(LinkComponent);
+
+export default FilterLinkContainer;
