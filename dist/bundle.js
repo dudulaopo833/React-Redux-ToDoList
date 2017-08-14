@@ -24841,10 +24841,13 @@ var oneTodoReducer = function oneTodoReducer(state, action) {
 	}
 };
 
-var todoListReducer = function todoListReducer(state, action) {
+var todoListReducer = function todoListReducer() {
+	var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+	var action = arguments[1];
+
 	switch (action.type) {
 		case 'ADD_TODO_ACTION':
-			return [].concat(_toConsumableArray(state), [oneTodoReducer({}, action)]);
+			return [].concat(_toConsumableArray(state), [oneTodoReducer(undefined, action)]);
 		case 'TOGGLE_TODO_ACTION':
 			return state.map(function (t) {
 				return oneTodoReducer(t, action);

@@ -16,12 +16,12 @@ const oneTodoReducer = (state, action) => {
 	}
 };
 
-const todoListReducer = (state, action) => {
+const todoListReducer = (state = [], action) => {
 	switch(action.type){
 		case 'ADD_TODO_ACTION':
 			return [
 				...state,
-				oneTodoReducer({}, action),
+				oneTodoReducer(undefined, action),
 			];
 		case 'TOGGLE_TODO_ACTION':
 			return state.map(t => oneTodoReducer(t, action));
