@@ -67,9 +67,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-function sayhello(){
-	console.log("say hello");
-}
+throw new Error("Module parse failed: C:\\Alma-Coding\\React-Redux-ToDolist\\index.js Unexpected token (11:1)\nYou may need an appropriate loader to handle this file type.\n| \r\n| render(\r\n| \t<Provider store={store}>\r\n| \t\t<AppComponent />\r\n| \t</Provider>,\r");
 
 /***/ })
 /******/ ]);
