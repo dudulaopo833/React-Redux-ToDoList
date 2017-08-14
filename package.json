@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "webpack"
+    "build": "rimraf dist && webpack"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
+    "rimraf": "^2.6.1",
     "webpack": "^3.5.4"
   },
   "dependencies": {}
