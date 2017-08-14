@@ -2,7 +2,7 @@ import OneTodoComponent from './OneTodoComponent';
 import React from 'react';
 
 const todoListComponent = ({todos, onTodoClick}) => {
-	<ul>
+	return (<ul>
 		{todos.map(todo => {
 			<OneTodoComponent 
 				key={todo.id} 
@@ -10,7 +10,7 @@ const todoListComponent = ({todos, onTodoClick}) => {
 				onclick={()=>onTodoClick(todo.id)} 
 			/>
 		})}
-	</ul>
+	</ul>);
 };
 
 export default todoListComponent;

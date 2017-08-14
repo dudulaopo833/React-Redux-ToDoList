@@ -1,7 +1,7 @@
 import FilterLinkContainer from '../containers/FilterLinkContainer';
 import React from 'react';
 
-const FilterComponent = () => {
+const FilterComponent = () => (
 	<p>
 		Show: 
 		{" "}
@@ -17,6 +17,6 @@ const FilterComponent = () => {
 			Completed
 		</FilterLinkContainer>
 	</p>
-};
+);
 
 export default FilterComponent;

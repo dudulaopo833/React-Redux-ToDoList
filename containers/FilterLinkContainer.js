@@ -1,7 +1,6 @@
 import {connect} from 'react-redux';
 import LinkComponent from '../components/LinkComponent';
 import {setFilterAction} from '../actions';
-import React from 'react';
 
 const mapStateToProps = (state, ownProps) => {
 	return {
