@@ -44,12 +44,12 @@ const todoAppReducers= combineReducers({
 > [一位学习者的笔记](https://github.com/kenberkeley/redux-simple-tutorial)   
 > [ES语法且用了React-propType的学习笔记](http://www.cnblogs.com/heigehe/)   
 > [ES6语法写的相同例子](https://github.com/willerfu/redux-todoList)   
-> [配置Express服务器的例子] (https://github.com/hanxzi/react-redux)   
+> [配置Express服务器的例子](https://github.com/hanxzi/react-redux)   
 
 # Other Note:
-> React 入门可以去腾讯课堂看智能社 Blue 老师的公开课，看完后再回过头看这个 Redux 的教程，基本就可以了  
-> 如果还想深入了解 webpack，可以去看阮一峰的 webpack 教程，网上也有很多 webpack2 的教程，跟着配一遍就基本可以了  
-> 这三块都了解了之后，就可以去找个 React 的脚手架，挽起袖子撸了  
-> 暂时只是为了学习redux , 所以没有配合使用打包工具， 建议新手朋友可以直接使用react的官方脚手架Create-react-app 搭建项目结构，简单便捷好用  
-> https://github.com/ryouaki/react-redux-create有一个别人做的小型react + redux脚手架，真正项目在template内，cnpm install一下再npm run start就可以运行了  
-> 可以到优酷搜千锋H5的视频看！专业的老师  
+* React 入门可以去腾讯课堂看智能社 Blue 老师的公开课，看完后再回过头看这个 Redux 的教程，基本就可以了  
+* 如果还想深入了解 webpack，可以去看阮一峰的 webpack 教程，网上也有很多 webpack2 的教程，跟着配一遍就基本可以了  
+* 这三块都了解了之后，就可以去找个 React 的脚手架，挽起袖子撸了  
+* 暂时只是为了学习redux , 所以没有配合使用打包工具， 建议新手朋友可以直接使用react的官方脚手架Create-react-app 搭建项目结构，简单便捷好用  
+* https://github.com/ryouaki/react-redux-create有一个别人做的小型react + redux脚手架，真正项目在template内，cnpm install一下再npm run start就可以运行了  
+* 可以到优酷搜千锋H5的视频看！专业的老师  
