@@ -70,3 +70,18 @@ github上的源代码地址：https://github.com/reactjs/redux.git
 
 其实redux用于一些中小型项目的时候，会带来挺多的麻烦，而且中间件什么的一大堆。。。这里安利一波mobx吧，很容易上手，搭配react非常好用。
 
+<<<<<<< HEAD
+=======
+
+* action -> action creater -> reducer -> redux.createStore(redux.combineReducers(reducer)) -> react-redux.connect(mapStateToProps, mapDispatchToProps)(Container) -> container.dispatch(actionCreater)
+> Action 是返回一个对象的方法，描述事件，有type 和最简单的state属性     
+> Action Creator 是集中生成action方法，传给reducer    
+> reducer 是一个纯方法，用于处理action Creator，传入state和action，最终出来新的state     
+> redux 提供combineReducers和createStore(reducers)方法来总结出中的store  
+> react-redux 提供connect方法和Provider组件来包装container    
+> container一般处理逻辑，不处理表现，用react-redux 中的connect方法来生成, dispatch actionCreator
+
+
+待理解：
+<input ref={node=>{input=node}}/>
+>>>>>>> e40d6ac07d504add74dedd0756e036f066b3d0d2
