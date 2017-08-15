@@ -40,7 +40,9 @@ const todoAppReducers= combineReducers({
 
 # 学习资料
 > github上的源代码地址：https://github.com/reactjs/redux.git   
-> [React中文网](http://cn.redux.js.org/index.html)   
+> [Redux中文网](http://cn.redux.js.org/index.html)  
+> [Redux翻译网](https://github.com/camsong/redux-in-chinese)
+> [整个redux生态网](https://github.com/xgrommx/awesome-redux)
 > [一位学习者的笔记](https://github.com/kenberkeley/redux-simple-tutorial)   
 > [ES语法且用了React-propType的学习笔记](http://www.cnblogs.com/heigehe/)   
 > [ES6语法写的相同例子](https://github.com/willerfu/redux-todoList)   
@@ -52,4 +54,4 @@ const todoAppReducers= combineReducers({
 * 这三块都了解了之后，就可以去找个 React 的脚手架，挽起袖子撸了  
 * 暂时只是为了学习redux , 所以没有配合使用打包工具， 建议新手朋友可以直接使用react的官方脚手架Create-react-app 搭建项目结构，简单便捷好用  
 * https://github.com/ryouaki/react-redux-create有一个别人做的小型react + redux脚手架，真正项目在template内，cnpm install一下再npm run start就可以运行了  
-* 可以到优酷搜千锋H5的视频看！专业的老师  
+* 这个教程适合有react基础的，不适合新手，老师讲的很好，但是并不专业，概念模糊不清。可以到优酷搜千锋H5的视频看！专业的老师 
