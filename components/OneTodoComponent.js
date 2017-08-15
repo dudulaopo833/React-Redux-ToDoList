@@ -2,8 +2,9 @@ import React from 'react';
 
 const OneTodoComponent = ({onClick, completed, text}) => (
 	<li 
-		onclick={onClick}
-		style={{textDecoretion:completed?'line-through':'none'}}>
+		onClick={onClick}
+		style={{textDecoration:completed?'line-through':'none'}}>
+		{text}
 	</li>
 );
 

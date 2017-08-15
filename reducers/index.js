@@ -3,8 +3,8 @@ import filterTodoListReducer from './filterTodoListReducer';
 import { combineReducers } from 'redux';
 
 const todoAppReducers = combineReducers({
-	todoListReducer,
-	filterTodoListReducer
+	todos: todoListReducer,
+	visibilityFilter: filterTodoListReducer
 });
 
 export default todoAppReducers;

@@ -15,9 +15,9 @@ export const toggleTodoAction = (id) => {
 	};
 };
 
-export const setFilterAction = (visibilityFilter) => {
+export const setFilterAction = (filter) => {
 	return{
 		type: 'SET_VISIBILITY_FILTER',
-		visibilityFilter
+		filter
 	};
 };

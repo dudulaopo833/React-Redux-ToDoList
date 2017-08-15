@@ -2,7 +2,7 @@ var path = require('path');
 var HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-	entry: "./index.js",
+	entry: ["babel-polyfill","./index.js"],
 	output: {
 		path: path.resolve(__dirname, "dist"),
 		filename: "bundle.js"	
@@ -22,7 +22,7 @@ module.exports = {
 				],
 				loader: "babel-loader",
 				options: {
-					presets: ["es2015", "react"]
+					presets: ["latest", "react"]
 				}
 			}
 		]
@@ -30,7 +30,7 @@ module.exports = {
 	plugins: [
 		new HTMLWebpackPlugin({
 			template: "index.html",
-			inject: 'head'
+			inject: 'body'
 		})
 	]	
 };

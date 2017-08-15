@@ -4,11 +4,11 @@ import React from 'react';
 const todoListComponent = ({todos, onTodoClick}) => {
 	return (<ul>
 		{todos.map(todo => {
-			<OneTodoComponent 
+			return (<OneTodoComponent 
 				key={todo.id} 
 				{...todo} 
-				onclick={()=>onTodoClick(todo.id)} 
-			/>
+				onClick={()=>onTodoClick(todo.id)} 
+			/>)
 		})}
 	</ul>);
 };
