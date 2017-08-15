@@ -1,6 +1,6 @@
 # 环境：
 > webpack 3.5.4: 参考网上[Webpack3官网](https://webpack.js.org/configuration/)自己配置  
-> Webpack应用了htmlWebpackPlugin自动加打包好的bundle.js到index.html中
+> Webpack应用了htmlWebpackPlugin自动加打包好的bundle.js到index.html中   
 > 安装了rimraf npm 包来删除dist文件夹， 使得每次webpack build 之前都清空这个文件夹
 
 # 笔记： 
