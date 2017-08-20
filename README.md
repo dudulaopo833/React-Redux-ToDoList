@@ -44,9 +44,7 @@ const todoAppReducers= combineReducers({
 > [Redux翻译网](https://github.com/camsong/redux-in-chinese)
 > [整个redux生态网](https://github.com/xgrommx/awesome-redux)
 > [一位学习者的笔记](https://github.com/kenberkeley/redux-simple-tutorial)   
-> [ES语法且用了React-propType的学习笔记](http://www.cnblogs.com/heigehe/)   
-> [ES6语法写的相同例子](https://github.com/willerfu/redux-todoList)   
-> [配置Express服务器的例子](https://github.com/hanxzi/react-redux)   
+> [ES语法且用了React-propType的学习笔记](http://www.cnblogs.com/heigehe/)    
 
 # Other Note:
 * React 入门可以去腾讯课堂看智能社 Blue 老师的公开课，看完后再回过头看这个 Redux 的教程，基本就可以了  
