@@ -12,6 +12,7 @@
 * redux 提供combineReducers和createStore(reducers)方法来总结出中Reducer中的各个state，从而生成唯一的store树
 * react-redux 提供connect方法来连接component(传state和dispath方法)和Provider组件来包装最外层的组件，从而state可以一直传下去
 * container一般处理逻辑，不处理表现，用react-redux 中的connect方法来连接child component从而生成container, 生成的过程中，会把state和dispatch都转化为child component的props！ 而child component就可以用props来dispatch一个action
+* container 会把自己的props 和 children 和mapStateToProps/mapDispatchToProps整合出来的整个state 传到connectedComponent那里
 * 某个viewchild component）dispatch 了某个事件，首先会从事件生成器生成一个action，然后dispatch到每个reducer，从而更新相应state。 而state状态改变了，又会触发各个组件的刷新（mapStateToProps会接收到最新的state，从而导致component的props改变了）
 * mapStateToProps会把整个store 树中的所有state都传过去，也就是说每个componnent都得到了全部的state
 * mapStateToProps和mapDispatchToProps都可以传两个参数，第一个是 state/dispatch，第二个是ownProps
