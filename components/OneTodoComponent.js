@@ -1,8 +1,8 @@
 import React from 'react';
 
-const OneTodoComponent = ({onClick, completed, text}) => (
+const OneTodoComponent = ({onClick, completed, text, id}) => (
 	<li 
-		onClick={onClick}
+		onClick={() => onClick(id)}
 		style={{textDecoration:completed?'line-through':'none'}}>
 		{text}
 	</li>

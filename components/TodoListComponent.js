@@ -7,7 +7,7 @@ const todoListComponent = ({todos, onTodoClick}) => {
 			return (<OneTodoComponent 
 				key={todo.id} 
 				{...todo} 
-				onClick={()=>onTodoClick(todo.id)} 
+				onClick={onTodoClick} 
 			/>)
 		})}
 	</ul>);

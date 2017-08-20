@@ -34054,9 +34054,7 @@ var todoListComponent = function todoListComponent(_ref) {
 			return _react2.default.createElement(_OneTodoComponent2.default, _extends({
 				key: todo.id
 			}, todo, {
-				onClick: function onClick() {
-					return onTodoClick(todo.id);
-				}
+				onClick: onTodoClick
 			}));
 		})
 	);
@@ -34082,13 +34080,16 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var OneTodoComponent = function OneTodoComponent(_ref) {
-	var onClick = _ref.onClick,
+	var _onClick = _ref.onClick,
 	    completed = _ref.completed,
-	    text = _ref.text;
+	    text = _ref.text,
+	    id = _ref.id;
 	return _react2.default.createElement(
 		'li',
 		{
-			onClick: onClick,
+			onClick: function onClick() {
+				return _onClick(id);
+			},
 			style: { textDecoration: completed ? 'line-through' : 'none' } },
 		text
 	);
