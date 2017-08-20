@@ -19,7 +19,7 @@
 
  # 待理解/待办项：
 1. 用ES6和React的其他包来写 - [详见](https://github.com/dudulaopo833/react-redux-todolist-es6.git)
-2. 尝试用脚手架来项目起步 -  [详见](https://github.com/dudulaopo833/react-redux-todolist-es6.git)
+2. 尝试用脚手架来项目起步 -  [详见2](https://github.com/dudulaopo833/react-redux-todolist-es6-2.git)
 3. 用webpack-dev-server 或者 express 服务器来热更新
 
 # 遇到的坑
