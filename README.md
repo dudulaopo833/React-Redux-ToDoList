@@ -18,10 +18,9 @@
 * mapStateToProps和mapDispatchToProps都可以传两个参数，第一个是 state/dispatch，第二个是ownProps
 
  # 待理解/待办项：
-<input ref={node=>{input=node}}/>
-1. 用ES6和React的其他包来写
-2. 用webpack-dev-server 或者 express 服务器来热更新
-3. 尝试用脚手架来项目起步
+1. 用ES6和React的其他包来写 - [详见](https://github.com/dudulaopo833/react-redux-todolist-es6.git)
+2. 尝试用脚手架来项目起步 -  [详见](https://github.com/dudulaopo833/react-redux-todolist-es6.git)
+3. 用webpack-dev-server 或者 express 服务器来热更新
 
 # 遇到的坑
 * new HTMLWebpackPlugin中的inject一定要body，不能head，因为容易dom还没加载好久可以运行react代码，导致"Invariant Violation: _registerComponent(...): Target container is not a DOM element"的错误
