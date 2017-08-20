@@ -34,9 +34,9 @@ const todoAppReducers= combineReducers({
 ```
 * const LinkComponent = ({active, children, onClick}) => {} react组件传参是一个对象，这里如果去掉{}，那么会报"Uncaught Invariant Violation: Objects are not valid as a React child(found: object with keys{}).If you meant to render a collection of children,use an array instead or wrap the object using createFragment(object) from the React add-ons. Check the reader method of 'LinkComponent'"
 * React中属性和样式都必须是驼峰标识， 所以onClick，onSubmit不能写成html事件onclick，onsubmit； 而textDecoration样式不能写成text-decoration
+* React中 jsx(ref='example'), 那么在用的时候时候 this.refs.example
 * Object.assign这个静态方法是ES2017的东西，babel-preset-ES2015/latest 都不能完全翻译这个， 需要用babel-polyfill来使得在浏览器也能正常解析；可以在入口文件import进来， 也可以在wbpack入口文件哪里引用进来； 如果用babel-node命令来运行某个文件， babel-node自带了babel-polyfill
 * preset是用来翻译成ES5，polyfill是用来支持哪些没有翻译成ES5的语法也能在浏览器上成功执行
-
 
 # 学习资料
 > github上的源代码地址：https://github.com/reactjs/redux.git   
@@ -44,7 +44,6 @@ const todoAppReducers= combineReducers({
 > [Redux翻译网](https://github.com/camsong/redux-in-chinese)
 > [整个redux生态网](https://github.com/xgrommx/awesome-redux)
 > [一位学习者的笔记](https://github.com/kenberkeley/redux-simple-tutorial)   
-> [ES语法且用了React-propType的学习笔记](http://www.cnblogs.com/heigehe/)    
 
 # Other Note:
 * React 入门可以去腾讯课堂看智能社 Blue 老师的公开课，看完后再回过头看这个 Redux 的教程，基本就可以了  
